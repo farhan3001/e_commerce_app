@@ -1,0 +1,93 @@
+name: e_commerce
+description: "E-Commerce application using Flutter"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+# ------------------------ PACKAGES ------------------------ #
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility packages
+  http: ^1.1.0
+  intl: ^0.19.0
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.13.1
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
+  flutter_layout_grid: ^1.0.3
+  dynamic_height_grid_view: ^0.0.4
+  flutter_staggered_grid_view: ^0.7.0
+  conditional_wrap: ^3.0.0
+
+  #Icons
+  iconsax:  ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  # State Managements
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  # Product Specific
+
+
+# ------------------------ ./ PACKAGES END ------------------------ #
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+# ------------------------ LOCAL ASSETS & FONTS ------------------------ #
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logos/
+    - assets/icons/product_categories/
+    - assets/icons/socials/
+    - assets/images/on_boarding_images/
+    - assets/images/animations/
+    - assets/images/user_settings/
+    - assets/images/banners/
+    - assets/images/products/animals/
+    - assets/images/products/body_and_beauty_care/
+    - assets/images/products/books/
+    - assets/images/products/clothing/
+    - assets/images/products/electronics/
+    - assets/images/products/furniture/
+    - assets/images/products/groceries/
+    - assets/images/products/household_goods/
+    - assets/images/products/jewelry/
+    - assets/images/products/sports/
+    - assets/images/products/toys/
+
+  fonts:
+   - family: Poppins
+     fonts:
+       - asset: assets/fonts/Poppins-Light.ttf
+         weight: 300
+       - asset: assets/fonts/Poppins-Regular.ttf
+         weight: 400
+       - asset: assets/fonts/Poppins-Italic.ttf
+         style: italic
+       - asset: assets/fonts/Poppins-Medium.ttf
+         weight: 500
+       - asset: assets/fonts/Poppins-MediumItalic.ttf
+         weight: 500
+         style: italic
+       - asset: assets/fonts/Poppins-SemiBold.ttf
+         weight: 600
+       - asset: assets/fonts/Poppins-Bold.ttf
+         weight: 800
+  
+  
+  
